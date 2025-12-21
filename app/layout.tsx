@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { DM_Serif_Text, Jost, Roboto_Mono } from "next/font/google";
 import "./globals.css";
 import Header from "@/components/Header";
+import Footer from "@/components/Footer";
 
 const sans = Jost({
   variable: "--font-sans",
@@ -37,6 +38,7 @@ export default function RootLayout({
       >
         <Header />
         {children}
+        <Footer />
       </body>
     </html>
   );

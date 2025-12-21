@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { DM_Serif_Text, Jost, Roboto_Mono } from "next/font/google";
 import "./globals.css";
+import Header from "@/components/Header";
 
 const sans = Jost({
   variable: "--font-sans",
@@ -8,10 +9,10 @@ const sans = Jost({
 });
 
 const serif = DM_Serif_Text({
-  variable: "--font-serif";
+  variable: "--font-serif",
   subsets: ["latin"],
   weight: "400",
-})
+});
 
 const mono = Roboto_Mono({
   variable: "--font-geist-mono",
@@ -20,7 +21,8 @@ const mono = Roboto_Mono({
 
 export const metadata: Metadata = {
   title: "Nina Aßmann - Webdeveloper & Designer",
-  description: "Personal portfolio showcasing projects, skills, and experience with React, Next.js, Tailwind CSS, and modern web technologies.",
+  description:
+    "Personal portfolio showcasing projects, skills, and experience with React, Next.js, Tailwind CSS, and modern web technologies.",
 };
 
 export default function RootLayout({
@@ -33,6 +35,7 @@ export default function RootLayout({
       <body
         className={`${sans.variable} ${serif.variable} ${mono.variable} antialiased px-8`}
       >
+        <Header />
         {children}
       </body>
     </html>

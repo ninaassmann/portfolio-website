@@ -1,3 +1,4 @@
+import Projects from "@/components/Projects";
 import Skills from "@/components/Skills";
 import { Button } from "@/components/ui/button";
 import Image from "next/image";
@@ -25,6 +26,7 @@ export default function Home() {
         <Button>Projekte entdecken</Button>
       </section>
       <Skills />
+      <Projects />
     </main>
   );
 }

@@ -57,10 +57,8 @@ export default function Projects() {
             CRUD-Funktionen
           </CardDescription>
         </CardHeader>
-        <CardContent className="flex gap-2">
+        <CardContent className="flex flex-wrap gap-2">
           <Badge variant={"secondary"}>Next.Js</Badge>
-          <Badge variant={"secondary"}>Tailwind CSS</Badge>
-          <Badge variant={"secondary"}>shadcn</Badge>
           <Badge variant={"secondary"}>API Anbindung</Badge>
           <Badge variant={"secondary"}>AUTH</Badge>
         </CardContent>

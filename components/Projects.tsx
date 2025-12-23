@@ -11,7 +11,10 @@ import Image from "next/image";
 
 export default function Projects() {
   return (
-    <section className="grid grid-cols-1 md:grid-cols-2 gap-6 py-40 mx-auto">
+    <section
+      className="grid grid-cols-1 md:grid-cols-2 gap-6 py-40 mx-auto"
+      id="projects"
+    >
       <Card>
         <div className="w-full h-60 relative">
           <Image src="/example.png" alt="Example" fill={true} />

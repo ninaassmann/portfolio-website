@@ -1,4 +1,4 @@
-export default function Home() {
+export default function Impressum() {
   return (
     <main>
       <section className="container py-40 flex flex-col gap-10">

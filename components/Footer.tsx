@@ -1,4 +1,5 @@
 import { Copyright } from "lucide-react";
+import Link from "next/link";
 
 export default function Footer() {
   const currentYear = new Date().getFullYear();
@@ -9,8 +10,8 @@ export default function Footer() {
         <Copyright className="w-4" /> Nina Aßmann {currentYear}
       </div>
       <div className="flex gap-10">
-        <p>Impressum</p>
-        <p>Datenschutz</p>
+        <Link href="/impressum">Impressum</Link>
+        <Link href="/datenschutz">Datenschutz</Link>
       </div>
     </header>
   );

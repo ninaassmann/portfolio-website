@@ -184,3 +184,27 @@
 .container {
   @apply max-w-6xl mx-auto px-8;
 }
+
+h1 {
+  @apply text-5xl font-serif mb-6;
+}
+
+h2 {
+  @apply text-4xl font-serif mb-6;
+}
+
+h3 {
+  @apply text-2xl font-serif mb-4;
+}
+
+h4 {
+  @apply text-lg font-serif mb-4;
+}
+
+p {
+  @apply font-sans max-w-xl mb-6;
+}
+
+p + h2 {
+  @apply border-t-1 border-foreground/50 pt-8;
+}

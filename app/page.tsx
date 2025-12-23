@@ -11,7 +11,7 @@ import { GithubIcon, LinkedinIcon } from "lucide-react";
 export default function Home() {
   return (
     <main className="">
-      <section className="flex flex-col py-40 justify-center items-center gap-10">
+      <section className="container flex flex-col py-40 justify-center items-center gap-10">
         <div className="rounded-full relative overflow-clip w-36 h-36">
           <Image
             src="/ProfileImage.png"

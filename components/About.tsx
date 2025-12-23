@@ -35,7 +35,7 @@ export default function About() {
             sorgen für jede Menge Spaß und Bewegung.
           </p>
         </div>
-        <div className="rounded-xl relative overflow-clip opacity-80 w-72 lg:w-96 max-w-4/5 aspect-square place-self-center md:place-self-end order-1">
+        <div className="rounded-xl relative overflow-clip opacity-80 w-72 lg:w-96 max-w-4/5 aspect-square place-self-center lg:place-self-end order-1">
           <Image
             src="/ai-generated-me-and-dogs.png"
             alt="KI generiertes Bild von Nina und ihren Hunden"

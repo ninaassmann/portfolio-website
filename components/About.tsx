@@ -26,8 +26,8 @@ export default function About() {
     <section className="py-40 bg-card">
       <div className="container grid lg:grid-cols-2 gap-10 items-center">
         <div className="flex flex-col gap-6 order-2 lg:order-1 max-w-xl text-center lg:text-left place-self-center">
-          <h2 className="text-4xl font-serif">Was ich so mache</h2>
-          <p className="font-sans">
+          <h2>Was ich so mache</h2>
+          <p>
             Ich bin {age} Jahre alt und lebe in Hamburg. Neben meiner
             Leidenschaft für Webentwicklung und Design liebe ich alles rund ums
             Gaming – von großen und kleinen Brettspielen bis hin zu

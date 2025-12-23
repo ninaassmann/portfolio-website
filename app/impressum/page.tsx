@@ -1,7 +1,7 @@
 export default function Impressum() {
   return (
     <main>
-      <section className="container py-40 flex flex-col gap-10">
+      <section className="container py-40 flex flex-col">
         <h1 className="text-5xl font-serif ">Impressum</h1>
         <p>
           Nina Aßmann

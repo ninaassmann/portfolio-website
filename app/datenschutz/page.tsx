@@ -1,7 +1,7 @@
 export default function Datenschutz() {
   return (
     <main>
-      <section className="container py-40 flex flex-col gap-10">
+      <section className="container py-40 flex flex-col">
         <h1>Datenschutz&shy;erkl&auml;rung</h1>
         <h2>1. Datenschutz auf einen Blick</h2>
         <h3>Allgemeine Hinweise</h3>
@@ -125,9 +125,9 @@ export default function Datenschutz() {
           22869 Schenefeld
         </p>
         <p>
-          Telefon: &#91;Telefonnummer der verantwortlichen Stelle&#93;
+          Telefon: 0160 908 958 68
           <br />
-          E-Mail: &#91;E-Mail-Adresse der verantwortlichen Stelle&#93;
+          E-Mail: hallo@ninaassmann.de
         </p>
         <p>
           Verantwortliche Stelle ist die nat&uuml;rliche oder juristische
@@ -205,29 +205,29 @@ export default function Datenschutz() {
           sowie gegen Direktwerbung (Art. 21 DSGVO)
         </h3>
         <p>
-          WENN DIE DATENVERARBEITUNG AUF GRUNDLAGE VON ART. 6 ABS. 1 LIT. E ODER
-          F DSGVO ERFOLGT, HABEN SIE JEDERZEIT DAS RECHT, AUS GR&Uuml;NDEN, DIE
-          SICH AUS IHRER BESONDEREN SITUATION ERGEBEN, GEGEN DIE VERARBEITUNG
-          IHRER PERSONENBEZOGENEN DATEN WIDERSPRUCH EINZULEGEN; DIES GILT AUCH
-          F&Uuml;R EIN AUF DIESE BESTIMMUNGEN GEST&Uuml;TZTES PROFILING. DIE
-          JEWEILIGE RECHTSGRUNDLAGE, AUF DENEN EINE VERARBEITUNG BERUHT,
-          ENTNEHMEN SIE DIESER DATENSCHUTZERKL&Auml;RUNG. WENN SIE WIDERSPRUCH
-          EINLEGEN, WERDEN WIR IHRE BETROFFENEN PERSONENBEZOGENEN DATEN NICHT
-          MEHR VERARBEITEN, ES SEI DENN, WIR K&Ouml;NNEN ZWINGENDE
-          SCHUTZW&Uuml;RDIGE GR&Uuml;NDE F&Uuml;R DIE VERARBEITUNG NACHWEISEN,
-          DIE IHRE INTERESSEN, RECHTE UND FREIHEITEN &Uuml;BERWIEGEN ODER DIE
-          VERARBEITUNG DIENT DER GELTENDMACHUNG, AUS&Uuml;BUNG ODER VERTEIDIGUNG
-          VON RECHTSANSPR&Uuml;CHEN (WIDERSPRUCH NACH ART. 21 ABS. 1 DSGVO).
+          Wenn die Datenverarbeitung auf Grundlage von Art. 6 Abs. 1 lit. e oder
+          f DSGVO erfolgt, haben Sie jederzeit das Recht, aus Gründen, die sich
+          aus Ihrer besonderen Situation ergeben, gegen die Verarbeitung Ihrer
+          personenbezogenen Daten Widerspruch einzulegen; dies gilt auch für ein
+          auf diese Bestimmungen gestütztes Profiling. Die jeweilige
+          Rechtsgrundlage, auf der eine Verarbeitung beruht, entnehmen Sie
+          dieser Datenschutzerklärung. Wenn Sie Widerspruch einlegen, werden wir
+          Ihre betroffenen personenbezogenen Daten nicht mehr verarbeiten, es
+          sei denn, wir können zwingende schutzwürdige Gründe für die
+          Verarbeitung nachweisen, die Ihre Interessen, Rechte und Freiheiten
+          überwiegen oder die Verarbeitung dient der Geltendmachung, Ausübung
+          oder Verteidigung von Rechtsansprüchen (Widerspruch nach Art. 21 Abs.
+          1 DSGVO).
         </p>
         <p>
-          WERDEN IHRE PERSONENBEZOGENEN DATEN VERARBEITET, UM DIREKTWERBUNG ZU
-          BETREIBEN, SO HABEN SIE DAS RECHT, JEDERZEIT WIDERSPRUCH GEGEN DIE
-          VERARBEITUNG SIE BETREFFENDER PERSONENBEZOGENER DATEN ZUM ZWECKE
-          DERARTIGER WERBUNG EINZULEGEN; DIES GILT AUCH F&Uuml;R DAS PROFILING,
-          SOWEIT ES MIT SOLCHER DIREKTWERBUNG IN VERBINDUNG STEHT. WENN SIE
-          WIDERSPRECHEN, WERDEN IHRE PERSONENBEZOGENEN DATEN ANSCHLIESSEND NICHT
-          MEHR ZUM ZWECKE DER DIREKTWERBUNG VERWENDET (WIDERSPRUCH NACH ART. 21
-          ABS. 2 DSGVO).
+          Werden Ihre personenbezogenen Daten verarbeitet, um Direktwerbung zu
+          betreiben, so haben Sie das Recht, jederzeit Widerspruch gegen die
+          Verarbeitung Sie betreffender personenbezogener Daten zum Zwecke
+          derartiger Werbung einzulegen; dies gilt auch für das Profiling,
+          soweit es mit solcher Direktwerbung in Verbindung steht. Wenn Sie
+          widersprechen, werden Ihre personenbezogenen Daten anschließend nicht
+          mehr zum Zwecke der Direktwerbung verwendet (Widerspruch nach Art. 21
+          Abs. 2 DSGVO).
         </p>
         <h3>
           Beschwerde&shy;recht bei der zust&auml;ndigen
@@ -266,7 +266,7 @@ export default function Datenschutz() {
           jederzeit an uns wenden. Das Recht auf Einschr&auml;nkung der
           Verarbeitung besteht in folgenden F&auml;llen:
         </p>
-        <ul>
+        <ul className="list-disc list-inside space-y-4 pb-6">
           <li>
             Wenn Sie die Richtigkeit Ihrer bei uns gespeicherten
             personenbezogenen Daten bestreiten, ben&ouml;tigen wir in der Regel
@@ -305,64 +305,7 @@ export default function Datenschutz() {
           wichtigen &ouml;ffentlichen Interesses der Europ&auml;ischen Union
           oder eines Mitgliedstaats verarbeitet werden.
         </p>
-        <h2>4. Datenerfassung auf dieser Website</h2>
-        <h3>Cookies</h3>
-        <p>
-          Unsere Internetseiten verwenden so genannte &bdquo;Cookies&ldquo;.
-          Cookies sind kleine Datenpakete und richten auf Ihrem Endger&auml;t
-          keinen Schaden an. Sie werden entweder vor&uuml;bergehend f&uuml;r die
-          Dauer einer Sitzung (Session-Cookies) oder dauerhaft (permanente
-          Cookies) auf Ihrem Endger&auml;t gespeichert. Session-Cookies werden
-          nach Ende Ihres Besuchs automatisch gel&ouml;scht. Permanente Cookies
-          bleiben auf Ihrem Endger&auml;t gespeichert, bis Sie diese selbst
-          l&ouml;schen oder eine automatische L&ouml;schung durch Ihren
-          Webbrowser erfolgt.
-        </p>
-        <p>
-          Cookies k&ouml;nnen von uns (First-Party-Cookies) oder von
-          Drittunternehmen stammen (sog. Third-Party-Cookies).
-          Third-Party-Cookies erm&ouml;glichen die Einbindung bestimmter
-          Dienstleistungen von Drittunternehmen innerhalb von Webseiten
-          (z.&nbsp;B. Cookies zur Abwicklung von Zahlungsdienstleistungen).
-        </p>
-        <p>
-          Cookies haben verschiedene Funktionen. Zahlreiche Cookies sind
-          technisch notwendig, da bestimmte Webseitenfunktionen ohne diese nicht
-          funktionieren w&uuml;rden (z.&nbsp;B. die Warenkorbfunktion oder die
-          Anzeige von Videos). Andere Cookies k&ouml;nnen zur Auswertung des
-          Nutzerverhaltens oder zu Werbezwecken verwendet werden.
-        </p>
-        <p>
-          Cookies, die zur Durchf&uuml;hrung des elektronischen
-          Kommunikationsvorgangs, zur Bereitstellung bestimmter, von Ihnen
-          erw&uuml;nschter Funktionen (z.&nbsp;B. f&uuml;r die
-          Warenkorbfunktion) oder zur Optimierung der Website (z.&nbsp;B.
-          Cookies zur Messung des Webpublikums) erforderlich sind (notwendige
-          Cookies), werden auf Grundlage von Art. 6 Abs. 1 lit. f DSGVO
-          gespeichert, sofern keine andere Rechtsgrundlage angegeben wird. Der
-          Websitebetreiber hat ein berechtigtes Interesse an der Speicherung von
-          notwendigen Cookies zur technisch fehlerfreien und optimierten
-          Bereitstellung seiner Dienste. Sofern eine Einwilligung zur
-          Speicherung von Cookies und vergleichbaren
-          Wiedererkennungstechnologien abgefragt wurde, erfolgt die Verarbeitung
-          ausschlie&szlig;lich auf Grundlage dieser Einwilligung (Art. 6 Abs. 1
-          lit. a DSGVO und &sect; 25 Abs. 1 TDDDG); die Einwilligung ist
-          jederzeit widerrufbar.
-        </p>
-        <p>
-          Sie k&ouml;nnen Ihren Browser so einstellen, dass Sie &uuml;ber das
-          Setzen von Cookies informiert werden und Cookies nur im Einzelfall
-          erlauben, die Annahme von Cookies f&uuml;r bestimmte F&auml;lle oder
-          generell ausschlie&szlig;en sowie das automatische L&ouml;schen der
-          Cookies beim Schlie&szlig;en des Browsers aktivieren. Bei der
-          Deaktivierung von Cookies kann die Funktionalit&auml;t dieser Website
-          eingeschr&auml;nkt sein.
-        </p>
-        <p>
-          Welche Cookies und Dienste auf dieser Website eingesetzt werden,
-          k&ouml;nnen Sie dieser Datenschutzerkl&auml;rung entnehmen.
-        </p>
-        <p>
+        <p className="text-foreground/70">
           Quelle:
           <a href="https://www.e-recht24.de">https://www.e-recht24.de</a>
         </p>

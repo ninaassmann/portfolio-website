@@ -17,8 +17,8 @@ export default function Home() {
           />
         </div>
         <div className="flex flex-col gap-6">
-          <h1 className="text-5xl font-serif text-center">Hi, Ich bin Nina!</h1>
-          <p className="font-sans text-center max-w-xl">
+          <h1 className="text-center">Hi, Ich bin Nina!</h1>
+          <p className="text-center">
             Webentwicklung & Design
             <br />
             Moderne Webseiten, klar strukturiert und schön umgesetzt.

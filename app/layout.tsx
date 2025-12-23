@@ -34,7 +34,7 @@ export default function RootLayout({
   return (
     <html lang="en" className="dark">
       <body
-        className={`${sans.variable} ${serif.variable} ${mono.variable} antialiased px-8`}
+        className={`${sans.variable} ${serif.variable} ${mono.variable} antialiased`}
       >
         <Header />
         {children}

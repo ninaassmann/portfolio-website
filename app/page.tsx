@@ -1,3 +1,4 @@
+import About from "@/components/About";
 import Projects from "@/components/Projects";
 import Skills from "@/components/Skills";
 import { Button } from "@/components/ui/button";
@@ -5,7 +6,7 @@ import Image from "next/image";
 
 export default function Home() {
   return (
-    <main className="container">
+    <main className="">
       <section className="flex flex-col py-40 justify-center items-center gap-10">
         <div className="rounded-full relative overflow-clip w-36 h-36">
           <Image
@@ -27,6 +28,7 @@ export default function Home() {
       </section>
       <Skills />
       <Projects />
+      <About />
     </main>
   );
 }

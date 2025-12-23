@@ -9,7 +9,7 @@ export default function Footer() {
         <Copyright className="w-4" /> Nina Aßmann {currentYear}
       </div>
       <div className="flex gap-10">
-        <p>Impressum</p>
+        <a href="/impressum">Impressum</a>
         <p>Datenschutz</p>
       </div>
     </header>

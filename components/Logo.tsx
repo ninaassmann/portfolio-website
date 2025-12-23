@@ -1,4 +1,6 @@
-export default function Logo() {
+import { cn } from "@/lib/utils";
+
+export default function Logo({ className }: React.ComponentProps<"div">) {
   return (
     <>
       <svg
@@ -6,7 +8,7 @@ export default function Logo() {
         xmlns="http://www.w3.org/2000/svg"
         version="1.1"
         viewBox="0 0 193 56"
-        className="max-h-full"
+        className={cn("max-h-full", className)}
       >
         <g style={{ opacity: 0.5 }}>
           <polygon

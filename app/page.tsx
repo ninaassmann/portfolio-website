@@ -1,8 +1,11 @@
+import Image from "next/image";
+import Link from "next/link";
+
 import About from "@/components/About";
 import Projects from "@/components/Projects";
 import Skills from "@/components/Skills";
+
 import { Button } from "@/components/ui/button";
-import Image from "next/image";
 
 export default function Home() {
   return (
@@ -24,7 +27,9 @@ export default function Home() {
             Moderne Webseiten, klar strukturiert und schön umgesetzt.
           </p>
         </div>
-        <Button>Projekte entdecken</Button>
+        <Button asChild>
+          <Link href="/#projects">Projekte entdecken</Link>
+        </Button>
       </section>
       <Skills />
       <Projects />

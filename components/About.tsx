@@ -23,7 +23,7 @@ export default function About() {
   const age = getAge("1995-07-11");
 
   return (
-    <section className="py-40 bg-card">
+    <section className="py-40 bg-card" id="about">
       <div className="container grid lg:grid-cols-2 gap-10 items-center">
         <div className="flex flex-col gap-6 order-2 lg:order-1 max-w-xl text-center lg:text-left place-self-center">
           <h2>Was ich so mache</h2>

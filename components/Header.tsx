@@ -8,7 +8,7 @@ export default function Header() {
       <Link href="/" className="h-full w-3xs">
         <Logo />
       </Link>
-      <div className="flex gap-10">
+      <div className="hidden sm:flex gap-10">
         <Link href="/#projects">Projekte</Link>
         <Link href="/#about">Über mich</Link>
         <Link

@@ -6,6 +6,7 @@ import Projects from "@/components/Projects";
 import Skills from "@/components/Skills";
 
 import { Button } from "@/components/ui/button";
+import { GithubIcon, LinkedinIcon } from "lucide-react";
 
 export default function Home() {
   return (
@@ -30,6 +31,21 @@ export default function Home() {
         <Button asChild>
           <Link href="/#projects">Projekte entdecken</Link>
         </Button>
+        <div className="flex sm:hidden gap-10">
+          <Link
+            className="text-destructive font-medium uppercase"
+            href="https://github.com/ninaassmann/"
+            target="_blank"
+          >
+            <GithubIcon className="text-destructive" />
+          </Link>
+          <Link
+            href="https://www.linkedin.com/in/nina-a%C3%9Fmann-2789aa147/"
+            target="_blank"
+          >
+            <LinkedinIcon className="text-destructive" />
+          </Link>
+        </div>
       </section>
       <Skills />
       <Projects />

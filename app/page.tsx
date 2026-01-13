@@ -29,7 +29,7 @@ export default function Home() {
           </p>
         </div>
         <Button asChild>
-          <Link href="/#projects">Projekte entdecken</Link>
+          <Link href="/projekte">Projekte entdecken</Link>
         </Button>
         <div className="flex sm:hidden gap-10">
           <Link

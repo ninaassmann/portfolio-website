@@ -202,9 +202,9 @@ h4 {
 }
 
 p {
-  @apply font-sans max-w-xl mb-6;
+  @apply font-sans max-w-2xl mb-6 text-pretty;
 }
 
 p + h2 {
-  @apply border-t-1 border-foreground/50 pt-8;
+  @apply border-t border-foreground/50 pt-8;
 }

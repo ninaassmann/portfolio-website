@@ -1,4 +1,4 @@
-import { GithubIcon } from "lucide-react";
+import { GithubIcon, SquareArrowOutUpRightIcon } from "lucide-react";
 import { Badge } from "./ui/badge";
 import {
   Card,
@@ -15,7 +15,7 @@ import Logo from "./Logo";
 export default function Projects() {
   return (
     <section
-      className="container grid grid-cols-1 md:grid-cols-2 gap-6 py-40 mx-auto place-items-center"
+      className="container grid grid-cols-1 md:grid-cols-2 gap-6 my-30 mx-auto place-items-center"
       id="projects"
     >
       <Card>
@@ -23,7 +23,7 @@ export default function Projects() {
           <Logo className="w-1/2" />
         </div>
         <CardHeader>
-          <CardTitle>Portfolio Website</CardTitle>
+          <CardTitle>Portfolio Website - Diese hier</CardTitle>
           <CardDescription className="opacity-75">
             <strong className="mb-2 block">Demnächst:</strong>
             Dark/Light-Theme, Filterung der Projekte nach Tech-Stack, Blog zu
@@ -47,28 +47,41 @@ export default function Projects() {
       </Card>
       <Card>
         <div className="w-full h-60 relative">
-          <Image src="/example.png" alt="Example" fill={true} />
+          <Image src="/faszination-hund.jpg" alt="Example" fill={true} />
         </div>
         <CardHeader>
-          <CardTitle>CRUD Projekt</CardTitle>
+          <CardTitle>Faszination Hund - Payload CMS</CardTitle>
           <CardDescription className="opacity-75">
             <strong className="mb-2 block">Demnächst:</strong>
-            Authentifizierung &<br />
-            CRUD-Funktionen
+            Filter- und Sortierfunktion &<br />
+            Blogbeiträge
           </CardDescription>
         </CardHeader>
         <CardContent className="flex flex-wrap gap-2">
           <Badge variant={"secondary"}>Next.Js</Badge>
-          <Badge variant={"secondary"}>API Anbindung</Badge>
-          <Badge variant={"secondary"}>AUTH</Badge>
+          <Badge variant={"secondary"}>Payload CMS</Badge>
+          <Badge variant={"secondary"}>DaisyUI</Badge>
         </CardContent>
         <CardFooter className="flex gap-4 justify-end">
           <Link
-            className="text-destructive font-medium"
-            href="https://github.com/ninaassmann/portfolio-website"
+            className="text-destructive font-medium uppercase"
+            href="https://github.com/ninaassmann/faszination-hund"
             target="_blank"
           >
-            coming soon...
+            <GithubIcon className="text-destructive" />
+          </Link>
+          <Link
+            className="text-destructive font-medium"
+            href="https://faszination-hund.vercel.app/"
+            target="_blank"
+          >
+            <SquareArrowOutUpRightIcon />
+          </Link>
+          <Link
+            className="text-destructive font-medium"
+            href="/projekte/faszination-hund/"
+          >
+            Details
           </Link>
         </CardFooter>
       </Card>

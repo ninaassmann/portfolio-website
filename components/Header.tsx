@@ -9,7 +9,7 @@ export default function Header() {
         <Logo />
       </Link>
       <div className="hidden sm:flex gap-10">
-        <Link href="/#projects">Projekte</Link>
+        <Link href="/projekte">Projekte</Link>
         <Link href="/#about">Über mich</Link>
         <Link
           className="text-destructive font-medium uppercase"

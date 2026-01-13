@@ -7,6 +7,7 @@ export const skills = [
   "Tailwind CSS",
   "Git",
   "TypeScript",
+  "Payload CMS",
   "Node.js",
   "APIs",
 ];

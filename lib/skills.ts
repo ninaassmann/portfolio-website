@@ -10,4 +10,6 @@ export const skills = [
   "Payload CMS",
   "Node.js",
   "APIs",
+  "Vue.js",
+  "NuxtJS",
 ];

@@ -21,7 +21,9 @@ export default function Home() {
           />
         </div>
         <div className="flex flex-col gap-6">
-          <h1 className="text-center">Hi, Ich bin Nina!</h1>
+          <h1 className="text-center">
+            Hi, Ich bin <span className="text-destructive">Nina</span>!
+          </h1>
           <p className="text-center">
             Webentwicklung & Design
             <br />

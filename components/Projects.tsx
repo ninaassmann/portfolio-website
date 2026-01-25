@@ -10,7 +10,6 @@ import {
 } from "./ui/card";
 import Image from "next/image";
 import Link from "next/link";
-import Logo from "./Logo";
 
 export default function Projects() {
   return (
@@ -19,33 +18,6 @@ export default function Projects() {
       id="projects"
     >
       <Card>
-        <div className="w-full h-60 relative bg-muted grid place-items-center">
-          <Logo className="w-1/2" />
-        </div>
-        <CardHeader>
-          <CardTitle>Portfolio Website - Diese hier</CardTitle>
-          <CardDescription className="opacity-75">
-            <strong className="mb-2 block">Demnächst:</strong>
-            Dark/Light-Theme, Filterung der Projekte nach Tech-Stack, Blog zu
-            Webentwicklung und Design.
-          </CardDescription>
-        </CardHeader>
-        <CardContent className="flex gap-2">
-          <Badge variant={"secondary"}>Next.Js</Badge>
-          <Badge variant={"secondary"}>Tailwind CSS</Badge>
-          <Badge variant={"secondary"}>shadcn</Badge>
-        </CardContent>
-        <CardFooter className="flex gap-4 justify-end">
-          <Link
-            className="text-destructive font-medium uppercase"
-            href="https://github.com/ninaassmann/portfolio-website"
-            target="_blank"
-          >
-            <GithubIcon className="text-destructive" />
-          </Link>
-        </CardFooter>
-      </Card>
-      <Card>
         <div className="w-full h-60 relative">
           <Image src="/faszination-hund.jpg" alt="Example" fill={true} />
         </div>
@@ -53,8 +25,7 @@ export default function Projects() {
           <CardTitle>Faszination Hund - Payload CMS</CardTitle>
           <CardDescription className="opacity-75">
             <strong className="mb-2 block">Demnächst:</strong>
-            Filter- und Sortierfunktion &<br />
-            Blogbeiträge
+            Filter- und Sortierfunktion & Blogbeiträge
           </CardDescription>
         </CardHeader>
         <CardContent className="flex flex-wrap gap-2">
@@ -82,6 +53,31 @@ export default function Projects() {
             href="/projekte/faszination-hund/"
           >
             Details
+          </Link>
+        </CardFooter>
+      </Card>
+
+      <Card>
+        <div className="w-full h-60 relative bg-muted grid place-items-center">
+          <Image src="/example.png" alt="Example" fill={true} />
+        </div>
+        <CardHeader>
+          <CardTitle>vue.js Project</CardTitle>
+          <CardDescription className="opacity-75">
+            <strong className="mb-2 block">Demnächst:</strong>
+            NuxtJS Project zum Einstieg in vue.js
+          </CardDescription>
+        </CardHeader>
+        <CardContent className="flex gap-2">
+          <Badge variant={"secondary"}>NuxtJS</Badge>
+        </CardContent>
+        <CardFooter className="flex gap-4 justify-end">
+          <Link
+            className="text-destructive font-medium uppercase"
+            href="#"
+            target="_blank"
+          >
+            coming soon...
           </Link>
         </CardFooter>
       </Card>
